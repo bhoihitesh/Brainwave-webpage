@@ -1,0 +1,295 @@
+/* footer main */
+.footer-main {
+  background-color: #161c2d;
+  padding: 80px 100px;
+}
+/* start project button */
+.start-project {
+  font-size: 14px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #473bf0;
+  color: #fff;
+}
+/*** launch project title css start ***/
+.launch-project-title p {
+  color: #ffff;
+  padding: 0px 0px 10px 0px;
+}
+/*** launch project title css end ***/
+
+/*** launch project description css start ***/
+.launch-project-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.launch-project-description p {
+  color: rgb(182, 178, 178);
+}
+/*** launch project description css end ***/
+/* launch project divider hr line css */
+.launch-project-divider {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  color: #424447;
+}
+
+/*** Footer section css start ***/
+.brand-title p {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.brand-description {
+  padding: 20px 0px;
+}
+.brand-description p {
+  color: rgb(182, 178, 178);
+}
+/*** Footer section css end ***/
+
+/*** social media links css start ***/
+.social-media-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 30px;
+}
+.social-icon :hover {
+  color: #68d585;
+  transition: ease-in-out;
+}
+/*** social media links css end ***/
+/* footer section container */
+.footer-section-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+/* footer first section */
+.footer-first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 100px;
+}
+/* footer second section */
+.footer-second-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 100px;
+}
+/*** company section css start ***/
+.company-section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.product-section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.services-section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.legal-section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.company-title p {
+  color: rgb(182, 178, 178);
+}
+.company-page-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.company-page-options p {
+  color: #ffff;
+  text-wrap: nowrap;
+}
+/*** company section css end ***/
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 100px;
+}
+@media screen and (width <= 767px) {
+  /* footer main div */
+  .footer-main {
+    padding: 20px !important;
+  }
+  /*** launch project description css start ***/
+  .launch-project-description {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  .launch-project-title p {
+    text-align: center !important;
+  }
+  .launch-project-description p {
+    text-align: center !important;
+    text-wrap: balance !important;
+  }
+  /*** launch project description css end ***/
+  /* launch project divider hr line css */
+  .launch-project-divider {
+    margin: 10px 0px 10px 0px !important;
+  }
+  /*** company section css start ***/
+  .services-section-main {
+    align-items: flex-start !important;
+  }
+  .legal-section-main {
+    align-items: flex-start !important;
+  }
+  /*** company section css end ***/
+  /* brand section main div css */
+  .brand-section-main {
+    align-items: center !important;
+  }
+  /* footer first section */
+  .footer-first-section {
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+  }
+  /* footer second section */
+  .footer-second-section {
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    gap: 80px !important;
+  }
+  /* footer section container */
+  .footer-section-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 30px !important;
+  }
+  /* company page option paragraph css */
+  .company-page-options p {
+    text-wrap: nowrap !important;
+  }
+  /* footer section css */
+  .footer-section {
+    flex-direction: column !important;
+    gap: 30px !important;
+    width: 100% !important;
+  }
+  /* company section main div */
+  .company-section-main {
+    width: 100% !important;
+  }
+  /* product section main div */
+  .product-section-main {
+    width: 100% !important;
+  }
+  /* company title */
+  .company-title {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  /* company page option */
+  .company-page-options {
+    width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+@media screen and (768px <= width <= 1023px) {
+  /* footer main div */
+  .footer-main {
+    padding: 20px !important;
+  }
+  /* footer section div */
+  .footer-section {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+  }
+  /* brand section main div css */
+  .brand-section-main {
+    text-align: center !important;
+  }
+  /* social media links css */
+  .social-media-links {
+    justify-content: center !important;
+  }
+  /* footer section container */
+  .footer-section-container {
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+  }
+  /* footer first section */
+  .footer-first-section {
+    gap: 20px !important;
+  }
+  /* footer second section */
+  .footer-second-section {
+    gap: 20px !important;
+  }
+  /* brand description */
+  .brand-description p {
+    text-align: center !important;
+    text-wrap: nowrap !important;
+  }
+}
+
+@media screen and (1024px <= width <= 1279px) {
+  /* footer main */
+  .footer-main {
+    padding: 50px !important;
+  }
+  /* footer section div */
+  .footer-section {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 50px !important;
+  }
+  /* brand section main div css */
+  .brand-section-main {
+    text-align: center !important;
+  }
+  /* social media links css */
+  .social-media-links {
+    justify-content: center !important;
+  }
+  /* footer section container */
+  .footer-section-container {
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 50px !important;
+  }
+  /* footer first section */
+  .footer-first-section {
+    gap: 50px !important;
+  }
+  /* footer second section */
+  .footer-second-section {
+    gap: 50px !important;
+  }
+  /* brand description paragraph */
+  .brand-description p {
+    text-align: center !important;
+  }
+}

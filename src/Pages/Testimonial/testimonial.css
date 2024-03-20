@@ -1,0 +1,64 @@
+/* main container css */
+.testimonial-main {
+  background-image: url("../../assets/images/BG-testimonial.png");
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-size: cover;
+  padding: 100px 0px 100px 0px;
+}
+/*** testimonial title css start ***/
+.testimonial-title {
+  text-align: center;
+}
+.testimonial-title p {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #68d585;
+}
+/*** testimonial title css end ***/
+
+/*** testimonial description css start ***/
+.testimonial-description {
+  text-align: center;
+  padding: 20px 0px;
+}
+.testimonial-description p {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+/*** testimonial description css end ***/
+
+/*** testimonial profile css start ***/
+.testimonial-profile {
+  text-align: center;
+}
+.testimonial-profile-description {
+  padding: 20px 0px;
+}
+.testimonial-profile-name p {
+  color: #ffff;
+  font-size: 14px;
+}
+.testimonial-profile-designation p {
+  color: rgb(182, 178, 178);
+  font-size: 12px;
+}
+/*** testimonial profile css end ***/
+
+@media screen and (250px <= width <= 354px) {
+  /*** testimonial description css start ***/
+  .testimonial-description p {
+    font-size: 14px !important;
+    padding: 5px !important;
+  }
+  .testimonial-description {
+    padding: 0px 0px !important;
+  }
+  /*** testimonial description css end ***/
+
+  /* testimonial profile css */
+  .testimonial-profile-description {
+    padding: 10px 0px !important;
+  }
+}

@@ -1,0 +1,196 @@
+/* service card main */
+.service-card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+/* services main */
+.services-main {
+  background-color: #fff;
+  padding-top: 50px;
+}
+/* services title */
+.services-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #f64b4b;
+  font-size: 11px;
+  font-weight: 700;
+}
+/* servces description */
+.services-description {
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  margin: 10px 0px 50px 0px;
+}
+
+/* designer card container */
+.designer-card-container {
+  width: 20%;
+  background: #68d585;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 25px 20px;
+  cursor: pointer;
+}
+/* programmer card container */
+.programmer-card-container {
+  width: 20%;
+  background: #473bf0;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 25px 20px;
+  cursor: pointer;
+}
+/* notes card container */
+.notes-card-container {
+  width: 20%;
+  background: #f64b4b;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 25px 20px;
+  cursor: pointer;
+}
+/* designer title */
+.designer-title {
+  font-weight: 700;
+  padding: 30px 0px 0px 0px;
+  color: #ffffff;
+}
+
+/* designer description */
+.designer-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* learnmore button container */
+.learnmore-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+/* learnmore button */
+.learnmore-button-container .learnmore-button {
+  background-color: transparent;
+  color: #ffff;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+}
+/* learnmore arrow */
+.learnmore-arrow {
+  width: 10px;
+}
+/* customer rating container */
+.customer-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+/* customer name with position */
+.customer-name-with-position {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+/* customer rating */
+.customer-rating {
+  padding-bottom: 20px;
+}
+/* customer name */
+.customer-name-with-position b {
+  font-size: 14px;
+  /* padding-top: 20px; */
+}
+/* customer position */
+.customer-name-with-position p {
+  font-size: 14px;
+  font-weight: 400;
+  /* padding-top: 20px; */
+}
+/* service devider */
+.service-devider {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  color: #b0b3b8;
+}
+/* default css */
+p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+@media screen and (width <= 767px) {
+  /* designer card container */
+  .designer-card-container {
+    width: 100% !important;
+    margin: 0px 10px !important;
+  }
+  /* programmer card container */
+  .programmer-card-container {
+    width: 100% !important;
+    margin: 0px 10px !important;
+  }
+  /* notes card container */
+  .notes-card-container {
+    width: 100% !important;
+    margin: 0px 10px !important;
+  }
+  /* customer rating container */
+  .customer-rating-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* customer reply main */
+  .customer-reply-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  /* service devider */
+  .service-devider {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: #b0b3b8;
+  }
+}
+
+@media screen and (768px <= width <= 1023px) {
+  /* designer card container */
+  .designer-card-container {
+    width: 25% !important;
+  }
+  /* programmer card container */
+  .programmer-card-container {
+    width: 25% !important;
+  }
+  /* notes card container */
+  .notes-card-container {
+    width: 25% !important;
+  }
+  /* customer rating container */
+  .customer-rating-container{
+    gap: 50px;
+  }
+  /* service devider */
+  .service-devider {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: #b0b3b8;
+  }
+}

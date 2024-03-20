@@ -1,0 +1,224 @@
+/* stories main */
+.stories-main {
+  background-color: #fff;
+  padding-top: 100px;
+}
+/* title story heading */
+.story-heading span {
+  color: #f64b4b;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* story description container */
+.story-description-container {
+  padding-top: 20px;
+}
+/* paragraph story description container */
+.story-title-description-container .title-description {
+  font-size: 18px;
+  font-weight: 700;
+}
+/* person story main */
+.person-story-main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+/* two person image */
+.second-person-container .two-person-containers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+/* firstPerson */
+.firstPerson {
+  width: 300px;
+}
+/* firstTwoPerson */
+.firstTwoPerson {
+  width: 180px;
+}
+/* secondTwoPerson */
+.secondTwoPerson {
+  width: 100px;
+}
+/* story description */
+.story-description-container .story-description {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 30px;
+  width: 60%;
+  padding-bottom: 50px;
+}
+/* customer statistics container */
+.customer-statistics-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 50px;
+  margin-top: 80px;
+}
+/* visited customers container */
+.visited-customers-container {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+/* visited customer number */
+.visited-customers-container b {
+  font-size: 24px;
+}
+/* visited customer description */
+.visited-customers-container p {
+  font-size: 14px;
+  text-wrap: wrap;
+  text-align: center;
+}
+/* visited rating container */
+.visited-rating-container {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+/* visited rating number */
+.visited-rating-container b {
+  font-size: 24px;
+}
+/* visited rating description */
+.visited-rating-container p {
+  font-size: 14px;
+  text-wrap: wrap;
+  text-align: center;
+}
+/* visited averageRating container */
+.visited-averageRating-container {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+/* visited averageRating number */
+.visited-averageRating-container b {
+  font-size: 24px;
+}
+/* visited averageRating description */
+.visited-averageRating-container p {
+  font-size: 14px;
+  text-wrap: wrap;
+  text-align: center;
+}
+/* customer statistics main */
+.customer-statistics-main {
+  padding-bottom: 80px;
+}
+@media screen and (250px <= width <= 354px) {
+  /* firstPerson */
+  .firstPerson {
+    width: 100% !important;
+  }
+  /* stories main */
+  .stories-main {
+    padding-top: 20px !important;
+  }
+  /* paragraph story description container */
+  .story-title-description-container .title-description {
+    font-size: 16px !important;
+    text-align: center !important;
+    padding: 10px 0px !important;
+  }
+  /* story heading */
+  .story-heading {
+    text-align: center !important;
+  }
+  /* person story main */
+  .person-story-main {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  /* two person image */
+  .second-person-container .two-person-containers {
+    gap: 20px !important;
+  }
+  /* firstTwoPerson */
+  .firstTwoPerson {
+    width: 150px !important;
+  }
+  /* story description */
+  .story-description-container .story-description {
+    width: 100% !important;
+    text-align: center !important;
+    text-wrap: balance !important;
+    padding: 0px !important;
+  }
+  /* customer statistics container */
+  .customer-statistics-container {
+    gap: 10px !important;
+    padding: 0px !important;
+    margin-top: 20px;
+    flex-direction: column !important;
+  }
+}
+@media screen and (355px <= width <= 767px) {
+  /* stories main */
+  .stories-main {
+    padding-top: 20px !important;
+  }
+  /* person story main */
+  .person-story-main {
+    flex-direction: column !important;
+    gap: 20px !important;
+    margin-top: 10px !important;
+  }
+  /* story heading */
+  .story-heading {
+    text-align: center !important;
+  }
+  /* paragraph story description container */
+  .story-title-description-container .title-description {
+    text-align: center !important;
+    padding: 10px 0px !important;
+  }
+  /* story description */
+  .story-description-container .story-description {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0px !important;
+    text-wrap: balance !important;
+  }
+  /* two person image */
+  .second-person-container .two-person-containers {
+    justify-content: center !important;
+    gap: 50px !important;
+  }
+  /* customer statistics container */
+  .customer-statistics-container {
+    gap: 10px !important;
+    padding: 0px !important;
+    margin-top: 20px;
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (768px <= width <= 1023px) {
+  /* story description */
+  .story-description-container .story-description {
+    width: 100% !important;
+    padding-top: 20px !important;
+  }
+  /* visited customer description */
+  .visited-customers-container p {
+    text-wrap: balance !important;
+  }
+  /* visited rating description */
+  .visited-rating-container p {
+    text-wrap: balance !important;
+  }
+  /* visited averageRating description */
+  .visited-averageRating-container p {
+    text-wrap: balance !important;
+  }
+}
